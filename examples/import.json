@@ -1,0 +1,22 @@
+{
+  "importId": "workshop-export",
+  "title": "Workshop supply export",
+  "context": "Which documented export preset produced this file?",
+  "text": "item,description,quantity\r\ncard,\"Blue, folded\",12\r\nlabel,\"Says \"\"hello\"\"\nSecond line\",8\r\n",
+  "presets": [
+    {
+      "id": "a",
+      "label": "Comma with header",
+      "reference": "Export menu: CSV heading",
+      "delimiter": ",",
+      "header": true
+    },
+    {
+      "id": "b",
+      "label": "Comma without header",
+      "reference": "Export menu: data only",
+      "delimiter": ",",
+      "header": false
+    }
+  ]
+}
